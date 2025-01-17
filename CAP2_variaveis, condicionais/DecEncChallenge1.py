@@ -7,7 +7,7 @@ if nivel == "ADM":
     elif genero == "HOMEM":
         print("Olá, administrador!")
     else:
-        print("Olá, retardado.")
+        print("Erro")
 elif nivel == "USR":
     genero = input("Você é homem ou mulher? ").upper()
     if genero == "MULHER":
@@ -15,7 +15,7 @@ elif nivel == "USR":
     elif genero == "HOMEM":
         print("Olá, usuário!")
     else:
-        print("Olá, acéfalo.")
+        print("Erro")
 elif nivel == "GUEST":
     genero = input("Você é homem ou mulher? ").upper()
     if genero == "MULHER":
@@ -23,6 +23,6 @@ elif nivel == "GUEST":
     elif genero == "HOMEM":
         print("Olá, convidado!")
     else:
-        print("Olá, burrão.")
+        print("Erro")
 else:
     print("erro.")
