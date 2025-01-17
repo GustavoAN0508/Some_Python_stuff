@@ -7,7 +7,7 @@ while resposta == "SIM":
         if genero == "FEMININO":
             print("Olá, administradora.")
         else:
-            print("Olá, ademir corno.")
+            print("Olá, administrador.")
     elif tipo == "ADM" or "USR":
         genero = input("Qual seu gênero?").upper()
         if genero == "FEMININO":
