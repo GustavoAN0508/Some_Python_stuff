@@ -3,14 +3,14 @@ idade = int(input("sua idade aqui: "))
 DoençaInfec = input("possui doença infectocontagiante? ").upper()
 
 while DoençaInfec != "SIM" and DoençaInfec != "NÃO":
-    print("digite sim ou não, burrão.")
+    print("digite sim ou não")
     DoençaInfec = input("De novo, você tem ou não?").upper()
 
 if DoençaInfec == "SIM":
-    print("Você vai morrer antes do natal. SALA AMARELA!!!")
+    print("SALA AMARELA!!!")
 
 else:
-    print("Tá salvo então, tenha um bom dia. SALA VERMELHA!!!")
+    print("SALA VERMELHA!!!")
 
 if idade >= 65:
     print("paciente tem prioridade")
@@ -27,4 +27,4 @@ else:
         else:
             print("é sim ou não.")
     else:
-        print("Isso não existe")
+        print("Erro")
